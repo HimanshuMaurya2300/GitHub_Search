@@ -8,7 +8,7 @@ const UserProfile = ({ userData }) => {
             <Flex my={16} border={"2px solid"} borderColor={"green.500"} borderRadius={4} padding={8}>
                 <VStack gap={5}>
                     <Avatar size={'2xl'} name={userData.name} src={userData.avatar_url} />
-                    <Button colorScheme='whatsapp'>
+                    <Button colorScheme='blue'>
                         <a href={userData.html_url} target='_blank'>
                             View Profile
                         </a>

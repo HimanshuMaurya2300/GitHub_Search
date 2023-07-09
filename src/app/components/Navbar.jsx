@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Image src={"/Github-logo.png"} fill alt='github logo' sx={{ filter: 'invert(1)' }} className='logo' />
             </Box>
             <Box>
-                <Button size={"md"} colorScheme='whatsapp' onClick={onOpen}>
+                <Button size={"md"} colorScheme='purple' onClick={onOpen}>
                     Search History
                 </Button>
             </Box>
