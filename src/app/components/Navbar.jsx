@@ -1,5 +1,6 @@
 import { Box, Button, Flex, useDisclosure } from '@/app/chakra'
 import Image from 'next/image'
+import GithubLogo from '/public/GitHub-logo.png'
 import '../globals.css'
 import HistoryModal from './HistoryModal'
 
@@ -12,9 +13,8 @@ const Navbar = () => {
         <Flex justifyContent={'space-between'} py={6} alignItems={"center"}>
 
             <Box position={'relative'} aspectRatio={5 / 3} minHeight={20}>
-                {/* <Image src={"/Github-logo.png"} fill alt='github logo' sx={{ filter: 'invert(1)' }} /> */}
 
-                <Image src={"/Github-logo.png"} fill alt='github logo' sx={{ filter: 'invert(1)' }} className='logo' />
+                <Image src={GithubLogo} fill alt='github logo' sx={{ filter: 'invert(1)' }} className='logo' />
             </Box>
             <Box>
                 <Button size={"md"} colorScheme='purple' onClick={onOpen}>
